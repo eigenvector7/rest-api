@@ -19,7 +19,7 @@ class NewVisitorTest(unittest.TestCase):
         # She goes to the homepage of the webapp
         self.browser.get('http://localhost:8000')
         # She notices the page title and header mentiones "List Life"
-        self.assertIn('List Life', self.browser.title)
+        self.assertIn('To-Do List', self.browser.title)
         self.fail('Finish The Test!!!')
         # She is invited to enter her tasks in list life right away
 
